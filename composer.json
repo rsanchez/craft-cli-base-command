@@ -1,0 +1,16 @@
+{
+    "name": "craft-cli/base-command",
+    "description": "Base Command class for Craft CLI",
+    "authors": [
+        {
+            "name": "Rob Sanchez",
+            "email": "info@robsanchez.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "CraftCli\\Command\\": "src/" }
+    },
+    "require": {
+        "symfony/console": "~2.7|~3.0"
+    }
+}
